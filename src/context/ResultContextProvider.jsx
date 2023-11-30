@@ -17,9 +17,9 @@ const ResultContextProvider = ({ children }) => {
         const res = await fetch(`${baseUrl}${url}`, {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': '99510fbbe3mshf81ff20c8b4c742p1e89f3jsn333eef4d9ff4',
+                // 'X-RapidAPI-Key': '99510fbbe3mshf81ff20c8b4c742p1e89f3jsn333eef4d9ff4',
+                'X-RapidAPI-Key': '63a733b89emshf811d69767423d2p1d65b3jsn6670b5d7466f',
                 'X-RapidAPI-Host': 'google-search72.p.rapidapi.com'
-                // 'X-RapidAPI-Key': '63a733b89emshf811d69767423d2p1d65b3jsn6670b5d7466f',
                 // 'X-RapidAPI-Host': 'google-search72.p.rapidapi.com'
             }
         });
