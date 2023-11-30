@@ -22,3 +22,21 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+/env
+env
+.env
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
